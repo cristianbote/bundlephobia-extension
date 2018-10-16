@@ -1,6 +1,6 @@
 # Bundlephobia Web Extension
 
-This is a web extension that wraps the super awesome tool, **Bundlephobia(https://bundlephobia.com/)**, with whom you can check the size of a package directly in your browser, without the need to open a new tab, when viewing it on **github** or **npmjs**.
+This is a web extension that wraps the super awesome tool, **Bundlephobia(https://bundlephobia.com/)**. You can check the size of a package directly in your tab, without the need to open a new one. The extension is available when viewing packages on **github** or **npmjs**. It's easier than ever!
 
 Checkout the video below:
 
