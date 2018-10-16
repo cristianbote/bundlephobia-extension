@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Bundlephobia</title>
+        <style>
+            body {
+                display: flex;
+                width: 400px;
+                height: 400px;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            iframe {
+                display: flex;
+                width: 400px;
+                height: 400px;
+            }
+
+            .progress-square {
+                display: none;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                padding: 0 16px;
+                text-align: center;
+            }
+
+            .progress-square__loader {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border: 1px solid #595959;
+                top: 50%;
+                animation: loader 2s infinite ease;
+            }
+
+            @keyframes loader {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                25% {
+                    transform: rotate(180deg);
+                }
+
+                50% {
+                    transform: rotate(180deg);
+                }
+
+                75% {
+                    transform: rotate(360deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .loading .progress-square {
+                display: flex;
+            }
+
+            .loading iframe {
+                display: none;
+            }
+
+        </style>
+    </head>
+    <body class="loading">
+        <div class="progress-square">
+            <span class="progress-square__loader"></span>
+        </div>
+
+        <iframe id="result" frameborder="0"></iframe>
+        <script src="popup.js"></script>
+    </body>
+</html>

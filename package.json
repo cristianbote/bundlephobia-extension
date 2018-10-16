@@ -1,0 +1,17 @@
+{
+  "name": "bundlephobia-extension",
+  "version": "1.0.0",
+  "description": "Bundlephobia web extension to easily check the size of a package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cristian Bote (https://github.com/cristianbote)",
+  "license": "ISC",
+  "homepage": "https://github.com/cristianbote/bundlephobia-extension",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/cristianbote/bundlephobia-extension"
+  }
+}
