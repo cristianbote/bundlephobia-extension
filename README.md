@@ -4,6 +4,11 @@ This is a web extension that wraps the super awesome tool, **Bundlephobia(https:
 
 Checkout the video below:
 
+![](https://i.imgur.com/3rRHD2L.gif)
+
+## How to get it
+You can install it via the Chrome Web Store link https://chrome.google.com/webstore/detail/bundlephobia-web-extension/dliifhggbnajibohfjcpiedlfjmoneko or download the crx file manually from releases.
+
 ## Usage
 Simply navigate to a certain repo either on github or on npmjs and click on the icon in your browser bar.
 
