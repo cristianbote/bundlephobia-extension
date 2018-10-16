@@ -18,6 +18,7 @@
         "declarativeContent"
     ],
     "icons": {
-        "32": "favicon-32x32.png"
+        "32": "favicon-32x32.png",
+        "256": "icon-256x256.png"
     }
   }
