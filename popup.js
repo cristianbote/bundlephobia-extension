@@ -1,5 +1,5 @@
 const getPackageName = url => url.split('/').filter(Boolean).slice(0, 4).slice(-1);
-const getBundlephobiaUrl = name => `https://bundlephobia.com/result?p=${name}`;
+const getBundlephobiaUrl = name => `https://bundlephobia.com/result?p=${name}&src=bundlephobia-extension`;
 const getIframe = () => document.querySelector('iframe');
 
 chrome.tabs.query({
