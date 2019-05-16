@@ -13,15 +13,15 @@ const getIframe = () => document.querySelector('iframe');
 chrome.tabs.query({
     active: true,
     currentWindow: true
-}, ([currentTab]) => {
-    const url = currentTab.url;
-    const packageName = getPackageName(url);
-    const iframe = getIframe();
+    }, ([currentTab]) => {
+        const url = currentTab.url;
+        const packageName = getPackageName(url);
+        const iframe = getIframe();
 
-    iframe.onload = () => {
-        document.body.className = "";
-        iframe.onload = null;
-    };
+        iframe.onload = () => {
+            document.body.className = "";
+            iframe.onload = null;
+        };
 
-    iframe.src = getBundlephobiaUrl(packageName);
-});
+        iframe.src = getBundlephobiaUrl(packageName);
+    });
